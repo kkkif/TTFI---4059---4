@@ -67,12 +67,7 @@ body.hidden {
 }
 
 main {
-  background: url(../img/Group\ 17.png) no-repeat right 5% top 95%, url(../img/group20.png) no-repeat left 35% top 1.5%, url(../img/yellow-circle.png) no-repeat right top 12%, url(../img/green-circle.png) no-repeat left top 50%;
-}
-@media (max-width: 1240px) {
-  main {
-    background: transparent;
-  }
+  background: url(../img/group17.png) no-repeat right 5% top 95%, url(../img/group20.png) no-repeat left 35% top 1.5%, url(../img/yellow-circle.png) no-repeat right top 12%, url(../img/green-circle.png) no-repeat left top 50%;
 }
 @media (max-width: 390px) {
   main {
@@ -83,7 +78,7 @@ main {
 .arrow-btn-up {
   width: 50px;
   height: 50px;
-  background: url(../img/arrow.svg), linear-gradient(#122d5f, #2c2830) padding-box, linear-gradient(to bottom, #343b7a, #352f2f) border-box;
+  background: url(../img/arrow.svg), linear-gradient(#2a529e, #a3ac29) padding-box, blue;
   background-repeat: no-repeat;
   background-position: center;
   position: fixed;
@@ -155,7 +150,7 @@ main {
   .header .burger {
     display: flex;
     width: 40px;
-    height: 25px;
+    height: 40px;
     background: url(../img/burger.svg) no-repeat center;
     position: relative;
     z-index: 5;
